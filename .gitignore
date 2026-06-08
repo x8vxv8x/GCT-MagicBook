@@ -17,9 +17,8 @@ out
 build
 .gradle
 
-# kate
-*.kate-swp
-
 # other
 eclipse
 run
+api
+AGENTS.md

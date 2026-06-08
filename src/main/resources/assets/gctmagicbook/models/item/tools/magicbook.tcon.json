@@ -1,0 +1,9 @@
+{
+  "textures": {
+    "layer0": "gctmagicbook:item/magicbook/book_base",
+    "layer1": "gctmagicbook:item/magicbook/book_hinge",
+    "layer2": "gctmagicbook:item/magicbook/book_page",
+    "layer3": "gctmagicbook:item/magicbook/book_core",
+    "broken1": "gctmagicbook:item/magicbook/book_base"
+  }
+}

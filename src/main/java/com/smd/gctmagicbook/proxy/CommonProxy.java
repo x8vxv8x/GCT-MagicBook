@@ -1,0 +1,26 @@
+package com.smd.gctmagicbook.proxy;
+
+import com.smd.gctmagicbook.network.NetworkHandler;
+import net.minecraft.item.Item;
+import slimeknights.tconstruct.library.tools.IToolPart;
+import slimeknights.tconstruct.library.tools.ToolCore;
+
+public class CommonProxy {
+
+    public void initToolGuis() {
+    }
+
+    public void registerToolModel(ToolCore tc) {
+    }
+
+    public <T extends Item & IToolPart> void registerToolPartModel(T part) {
+    }
+
+    public void registerBookData() {
+    }
+
+    public void preInit() {
+        NetworkHandler.register();
+    }
+
+}
